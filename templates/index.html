@@ -1,0 +1,21 @@
+{% extends 'base.html' %}
+
+{% block content %}
+    <h1 class="display-4">{% block title %} Welcome to BoardGameHelper by AKG {% endblock %}</h1>
+    <h2 >What all do you need?</h2>
+    
+    <div class="form-check form-switch">
+        <input class="form-check-input" type="checkbox" id="flexSwitchCheckDefault">
+        <label class="form-check-label" for="flexSwitchCheckDefault">Dice</label>
+    </div>
+    <div class="form-check form-switch">
+        <input class="form-check-input" type="checkbox" id="flexSwitchCheckChecked">
+        <label class="form-check-label" for="flexSwitchCheckChecked">Timer</label>
+    </div>
+    <div class="form-check form-switch">
+        <input class="form-check-input" type="checkbox" id="flexSwitchCheckChecked">
+        <label class="form-check-label" for="flexSwitchCheckChecked">Bank</label>
+    </div>
+    <br>
+    <button type="button" class="btn btn-lg btn-primary">Let's Go</button>
+{% endblock %}
